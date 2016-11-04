@@ -20,14 +20,11 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 	src: url('../fonts/Adam.otf');
 }
 
-
 body{
 	background-color: black;
 	text-align: center;
-	font-size: 40px;
 	font-family: Dolce Vita;
 }
-
 
 h1{
 	color:white;
@@ -40,21 +37,25 @@ h1{
 	font-size: 200px;
 }
 
-
-
 .about{
 	color: white;
-	font-size: 40px:;
+	font-size: 40px;
 	font-family: Adam;
 }
 div{
-	margin: 100px;
+	margin: 100px auto;
+	width: 100px;
+	padding: 10px;
+	border: 1px solid white;
 }
 
 div a{
 	color: white;
 	text-decoration: none;
-	padding: 10px;
-	border: 1px solid white;
-	margin: 100px;
+}
+div:hover{
+	background-color: #66fcf1;
+}
+div:hover a{
+	color: black;
 }
